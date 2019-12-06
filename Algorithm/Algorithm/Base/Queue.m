@@ -56,4 +56,9 @@
     }
 }
 
+-(NSInteger)size
+{
+    return self.queue.count;
+}
+
 @end

@@ -25,6 +25,7 @@
 		8166E5AF2399FE81004884C5 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5A32399FE81004884C5 /* BinaryTreeNode.m */; };
 		8166E5B02399FE81004884C5 /* HashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5A92399FE81004884C5 /* HashMap.m */; };
 		8166E5B4239A1EDD004884C5 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5B3239A1EDD004884C5 /* Queue.m */; };
+		8166E5B7239A260F004884C5 /* PrintFomTopToBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5B6239A260F004884C5 /* PrintFomTopToBottom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		8166E5AA2399FE81004884C5 /* BinaryTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
 		8166E5B2239A1EDD004884C5 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		8166E5B3239A1EDD004884C5 /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		8166E5B5239A260F004884C5 /* PrintFomTopToBottom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintFomTopToBottom.h; sourceTree = "<group>"; };
+		8166E5B6239A260F004884C5 /* PrintFomTopToBottom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintFomTopToBottom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +213,8 @@
 		8166E5B12399FF30004884C5 /* 4 */ = {
 			isa = PBXGroup;
 			children = (
+				8166E5B5239A260F004884C5 /* PrintFomTopToBottom.h */,
+				8166E5B6239A260F004884C5 /* PrintFomTopToBottom.m */,
 			);
 			path = 4;
 			sourceTree = "<group>";
@@ -356,6 +361,7 @@
 				8166E5AF2399FE81004884C5 /* BinaryTreeNode.m in Sources */,
 				8166E56D2399F805004884C5 /* main.m in Sources */,
 				8166E55F2399F803004884C5 /* SceneDelegate.m in Sources */,
+				8166E5B7239A260F004884C5 /* PrintFomTopToBottom.m in Sources */,
 				8166E5AC2399FE81004884C5 /* Stack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
