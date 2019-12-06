@@ -16,8 +16,6 @@
 		8166E56D2399F805004884C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E56C2399F805004884C5 /* main.m */; };
 		8166E5772399F805004884C5 /* AlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5762399F805004884C5 /* AlgorithmTests.m */; };
 		8166E5822399F805004884C5 /* AlgorithmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5812399F805004884C5 /* AlgorithmUITests.m */; };
-		8166E5922399F979004884C5 /* NSMutableArray+WBTFIFOQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5902399F979004884C5 /* NSMutableArray+WBTFIFOQueue.m */; };
-		8166E5952399FADB004884C5 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5942399FADB004884C5 /* NSMutableArray+Stack.m */; };
 		8166E5992399FCD0004884C5 /* BBLinkedMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5982399FCD0004884C5 /* BBLinkedMap.m */; };
 		8166E59D2399FCD9004884C5 /* BBSingleLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E59C2399FCD9004884C5 /* BBSingleLinkedList.m */; };
 		8166E5AB2399FE81004884C5 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E59F2399FE81004884C5 /* ListNode.m */; };
@@ -26,6 +24,7 @@
 		8166E5AE2399FE81004884C5 /* LinkedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5A22399FE81004884C5 /* LinkedArray.m */; };
 		8166E5AF2399FE81004884C5 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5A32399FE81004884C5 /* BinaryTreeNode.m */; };
 		8166E5B02399FE81004884C5 /* HashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5A92399FE81004884C5 /* HashMap.m */; };
+		8166E5B4239A1EDD004884C5 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166E5B3239A1EDD004884C5 /* Queue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,10 +63,6 @@
 		8166E57D2399F805004884C5 /* AlgorithmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8166E5812399F805004884C5 /* AlgorithmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmUITests.m; sourceTree = "<group>"; };
 		8166E5832399F805004884C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8166E5902399F979004884C5 /* NSMutableArray+WBTFIFOQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+WBTFIFOQueue.m"; sourceTree = "<group>"; };
-		8166E5912399F979004884C5 /* NSMutableArray+WBTFIFOQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+WBTFIFOQueue.h"; sourceTree = "<group>"; };
-		8166E5932399FADB004884C5 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
-		8166E5942399FADB004884C5 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
 		8166E5972399FCD0004884C5 /* BBLinkedMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBLinkedMap.h; sourceTree = "<group>"; };
 		8166E5982399FCD0004884C5 /* BBLinkedMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBLinkedMap.m; sourceTree = "<group>"; };
 		8166E59B2399FCD9004884C5 /* BBSingleLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSingleLinkedList.h; sourceTree = "<group>"; };
@@ -84,6 +79,8 @@
 		8166E5A82399FE81004884C5 /* LinkedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedArray.h; sourceTree = "<group>"; };
 		8166E5A92399FE81004884C5 /* HashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashMap.m; sourceTree = "<group>"; };
 		8166E5AA2399FE81004884C5 /* BinaryTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
+		8166E5B2239A1EDD004884C5 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		8166E5B3239A1EDD004884C5 /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,13 +131,10 @@
 		8166E5592399F803004884C5 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				8166E5B12399FF30004884C5 /* 4 */,
 				8166E59E2399FE81004884C5 /* Base */,
 				8166E59A2399FCD9004884C5 /* SingleLinkedList */,
 				8166E5962399FCD0004884C5 /* LinkedMap */,
-				8166E5912399F979004884C5 /* NSMutableArray+WBTFIFOQueue.h */,
-				8166E5902399F979004884C5 /* NSMutableArray+WBTFIFOQueue.m */,
-				8166E5932399FADB004884C5 /* NSMutableArray+Stack.h */,
-				8166E5942399FADB004884C5 /* NSMutableArray+Stack.m */,
 				8166E55A2399F803004884C5 /* AppDelegate.h */,
 				8166E55B2399F803004884C5 /* AppDelegate.m */,
 				8166E55D2399F803004884C5 /* SceneDelegate.h */,
@@ -207,8 +201,17 @@
 				8166E5A92399FE81004884C5 /* HashMap.m */,
 				8166E5AA2399FE81004884C5 /* BinaryTreeNode.h */,
 				8166E5A32399FE81004884C5 /* BinaryTreeNode.m */,
+				8166E5B2239A1EDD004884C5 /* Queue.h */,
+				8166E5B3239A1EDD004884C5 /* Queue.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		8166E5B12399FF30004884C5 /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,19 +345,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8166E59D2399FCD9004884C5 /* BBSingleLinkedList.m in Sources */,
-				8166E5952399FADB004884C5 /* NSMutableArray+Stack.m in Sources */,
 				8166E5AE2399FE81004884C5 /* LinkedArray.m in Sources */,
 				8166E5992399FCD0004884C5 /* BBLinkedMap.m in Sources */,
 				8166E5622399F803004884C5 /* ViewController.m in Sources */,
 				8166E5AB2399FE81004884C5 /* ListNode.m in Sources */,
 				8166E5B02399FE81004884C5 /* HashMap.m in Sources */,
 				8166E5AD2399FE81004884C5 /* TreeNode.m in Sources */,
+				8166E5B4239A1EDD004884C5 /* Queue.m in Sources */,
 				8166E55C2399F803004884C5 /* AppDelegate.m in Sources */,
 				8166E5AF2399FE81004884C5 /* BinaryTreeNode.m in Sources */,
 				8166E56D2399F805004884C5 /* main.m in Sources */,
 				8166E55F2399F803004884C5 /* SceneDelegate.m in Sources */,
 				8166E5AC2399FE81004884C5 /* Stack.m in Sources */,
-				8166E5922399F979004884C5 /* NSMutableArray+WBTFIFOQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
